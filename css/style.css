@@ -1,0 +1,417 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-images.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh
+}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	padding: 50px 0;
+}
+.logo img{
+	
+}
+nav{
+	width: 80%;
+	float: right;
+	padding: 50px 0;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	padding-bottom: 5px;
+	transition: 1s;
+}
+nav ul li a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+nav ul li:last-child{
+	margin-right: 0;
+}
+.h-button{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.h-button p{
+	color: #d5d5d5;
+	margin-top: 100px;
+		
+}
+.h-button h1{
+	color: #ffffff;
+	font-size: 55px;
+	margin-top: 50px;
+}
+.h-button button{
+	color: #ffffff;
+	font-size: 20px;
+	background: transparent;
+	border: 1px solid #ffffff;
+	padding: 10px 20px;
+	margin: 50px 0;
+	cursor: pointer;
+	transition: 1s;
+}
+.h-button button:hover{
+	color: #000000;
+	background: rgba(235,237,239,.3);
+}
+.blog{
+	
+}
+.single{
+	padding: 100px 0;
+}
+.s-text{
+	width: 74%;
+	display: inline-block;
+}
+.s-text h2{
+	font-weight: 300;
+}
+.s-text p{
+	color: #d5d5d5;
+	font-size: 14px;
+	padding-top: 40px;
+
+}
+.icon{
+	width: 20%;
+	display: inline-block;
+}
+.icon img{
+	width: 100%;
+}
+.icon-1{
+	float: right;
+}
+.pad-icon{
+	padding-left: 30px;
+}
+.service{
+	padding: 100px 0;
+	overflow: hidden;
+}
+.service-box{
+	width: 46%;
+	padding-bottom: 50px;
+	float: left;
+	padding-left: 20px;
+	
+}
+.service-img{
+	width: 10%;
+	float: left;
+}
+.service-img i{
+	padding-top: 5px;
+	font-size: 45px;
+}
+.service-text{
+	width: 80%;
+	float: right;
+}
+.service-text h3{}
+.service-text p{
+	color: #d5d5d5;
+	font-size: 14px;
+}
+.service-box:nth-child(even){
+	margin-left: 31px;
+}
+.clients{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+	overflow: hidden;
+}
+.clients h2{
+	font-size: 50px;
+	font-weight: 300;
+}
+.clients p{
+	color: #d5d5d5;
+	font-size: 14px;
+	    padding-bottom: 25px;
+}
+.single-2{
+	padding-bottom: 100px 0;
+	overflow: hidden;
+}
+.Awesome-Clients-img{
+	width: 20%;
+	float: left;
+}
+.Awesome-Clients-img img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.Awesome-Clients{
+	width: 65%;
+    float: right;
+    padding-top: 60px;
+}
+.Awesome-Clients p{
+	color: #d5d5d5;
+	padding-bottom: 5px;
+}
+.Awesome-Clients a{
+	color: #C3CDE4;
+	padding-top: 10px;
+}
+.Awesome-Clients2{
+	width: 65%;
+    float: left;
+    padding-top: 60px;
+}
+.Awesome-Clients2 p{
+	color: #d5d5d5;
+	padding-bottom: 5px;
+}
+.Awesome-Clients2 a{
+	color: #C3CDE4;
+	padding-top: 10px;
+}
+.Awesome-Clients-img2{
+	width: 20%;
+	float: left;
+}
+.Awesome-Clients-img2 img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.wordpress{
+	margin: 60px 0;
+}
+.wordpress a{
+	padding-left: 40px;
+}
+.wordpress img{
+
+}
+
+
+
+
+/* Team SECTION START */
+#team {
+    padding: 100px 0;
+    background-color: #000;
+}
+.c_top{
+	text-align: center;
+}
+#team .ms_title{
+color: white;
+font-size: 60px;
+font-weight: 300;
+}
+.ms_text{
+	color: #d5d5d5;
+}
+.t_card {
+    margin: 70px 0 40px;
+}
+.tc_item {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 40px;
+}
+.tc_item:last-child {
+    margin-right: 0;
+}
+.tc_name {
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    color: #fff;
+    line-height: 26px;
+    margin: 5px 0 3px;
+}
+.tc_skill {
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.tc-icons li {
+    display: inline-block;
+    cursor: pointer;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    border:3px solid white;
+    transition: 0.3s;
+    margin-right: 3px;
+}
+.twi:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+}
+.fb:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.pin:hover {
+    background-color: #cb2028;
+    border-color: #cb2028;
+}
+.gog:hover {
+    background-color: #d95232;
+    border-color: #d95232;
+}
+.tc-icons li i {
+    margin-top: 9px;
+}
+.tc_footer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tc_footer p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #ebebeb;
+}
+/* CONTACT SECTION START */
+#contact {
+    background-color: #7690c5;
+    padding: 100px 0;
+    color: #fff;
+}
+.con_content {
+    width: 47%;
+    display: inline-block;
+}
+.cont-1 {
+    float: left;
+}
+.cont-2{
+    float: right;
+    margin-top: 12px;
+}
+#contact .ms_title {
+    color: #fff;
+}
+.con_text {
+    color: ##f6f8fb;
+    margin-top:20px;
+}
+.con_info li{
+    display: inline-block;
+    width: 45%;
+    font-size: 18px;
+    margin-top: 45px;
+}
+.con_info li span{
+    margin-left: 5px;
+}
+.con_info li:nth-child(odd){ 
+float: left;
+}
+.con_info li:nth-child(even) {
+    float: right;
+}
+.cont-2>* {
+    display: block;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+.cont-2 input[type="text"], input[type="email"] {
+    width:100%;
+    height: 50px;
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #777777;
+
+}
+::-webkit-input-placeholder {
+    color: #bbbbbb;
+}
+::-moz-placeholder {
+    color: #bbbbbb;
+}
+:-ms-input-placeholder {
+    color: #bbbbbb;
+}
+::-ms-input-placeholder {
+    color: #bbbbbb;
+}
+::placeholder {
+    color: #bbbbbb;
+}
+.cont-2 textarea {
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:18px;
+    font-weight: 500;
+}
+input[type="submit"] {
+    width: 26%;
+    height: 27px;
+    padding: 0;
+    outline: none;
+    background-color: #7690c5;
+    border:1px solid #ffff;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Brandon Grotesque-Bold';
+    font-weight: 700;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    ;
+    background-color: #ffffff;
+    color: #a8a8a8;
+}
+/* FOOTER SECTION START */
+.f_line {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 72%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+footer{
+    text-align: center;
+    background-color: #7690c5;
+}
+footer p {
+    font-family: 'Brandon Grotesque-Medium';
+    font-size:16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+}
